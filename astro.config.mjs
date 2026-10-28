@@ -5,6 +5,8 @@ import codeblocks from "starlight-codeblocks";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://viccios.github.com",
+  base: "/padawans",
   integrations: [
     starlight({
       title: "Padawans",
