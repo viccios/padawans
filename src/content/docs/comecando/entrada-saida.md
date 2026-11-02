@@ -1,4 +1,7 @@
-# Entrada de Saída de Dados
+---
+title: Entrada e Saída de Dados
+---
+
 Para conversar com o computador precisamos falar com ele, e ele precisa falar com a gente.
 - **Quando ele falar com a gente:** estamos fazendo uma saída de dados. Ele pode mandar um texto pro terminal, imprimir algum valor na tela, imprimir alguma mensagem em uma impressora...
 - **Ao falarmos com ele:** estamos fazendo uma entrada de dados. Isso pode ser muitas coisas, como o clique de um mouse, um áudio ou um texto digitado pelo teclado. Nós, em todo o curso, só vamos trabalhar com esse último.
@@ -10,28 +13,31 @@ Logicamente, é natural pensar que um algoritimo não comece com o computador fa
 
 Vamos fazer exatamente o programa dos exemplos agora, mostrando como conversar com o computador seguindo cada linguagem de programação.
 
-## ENTRADA DE DADOS
+## Entrada de dados
 - **Em Python:** recebemos dados com o comando `input()`. O input é uma função que recebe um dado digitado pelo teclado. Dentro do parênteses é possível colocar um pequeno texto que aparecerá na tela e, logo no final dele, o usuário vai poder enviar o texto do teclado pressionando enter.
 - **Em JavaScript:** recebemos dados com uma biblioteca do Node chamada readline. Uma biblioteca é um conjunto de instruções prontas para um computador. Tu pode pensar numa biblioteca como uma coleção de algoritmos já feitos por outra pessoa. Para importar a biblioteca, nós usamos o comando `require()`. E dessa biblioteca, nós tiramos o comando `readline.question()`, que daí sim funciona que nem o Python e atribui o texto que o usuário digitar.
 
-> [!TIP]
-> Caso require não esteja instalado em sua máquina e ele acusar um erro de biblioteca inexistente, é possível instalar digitando tanto no bash, como no cmd o comando `npm install require-sync`.
+:::tip
+Caso require não esteja instalado em sua máquina e ele acusar um erro de biblioteca inexistente, é possível instalar digitando tanto no bash, como no cmd o comando `npm install require-sync`.
+:::
 
-> [!NOTE]
-> É importante notar que as duas entradas entram como texto, texto (símbolos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador conseguir fazer os cálculos.
+:::note
+É importante notar que as duas entradas entram como texto, texto (símbolos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador conseguir fazer os cálculos.
+:::
 
-## PROCESSAMENTO
+## Processamento
 Nas duas linguagens, o processamento desse programa vai ser igual. Nós vamos fazer `dataUsuario - dataAtual` e guardar isso numa variável para depois imprimir isso na tela. 
 
-## SAÍDA DE DADOS
+## Saída de dados
 - **Em Python:** usamos o comando `print()` para imprimir coisas no terminal. Vamos colocar dentro dos parênteses o que queremos imprimir. 
 - **Em JavaScript:** usamos o comando `console.log()` para também imprimir coisas no terminal. Também vamos colocar dentro dos parênteses o que queremos imprimir.
 
----
 E daí, em cada linguagem, o programa vai ficar assim:
 
-## PYTHON
+## Python
 ```py
+# entrada-saida.py
+
 # Para fazer um comentário em Python utilizamos uma # no ínicio da linha. Comentários são textos ignorados pelo interpretador. 
 
 dataUsuario = int(input("Digite seu ano de nascimento: ")) # Aqui nós fazemos 3 coisas. O input() para receber os dados, que vem por padrão em texto. O int() para transformar os simbólos do texto em números inteiros. E só então guardamos isso na variável dataUsuario.
@@ -40,8 +46,11 @@ print(idade) # Imprimimos o valor da variável idade.
 ```
 Teste isso no seu Python digitando qualquer ano.
 
-## JAVASCRIPT
+## JavaScript
 ```js
+
+// entrada-saida.js
+
 // Para fazer um comentário em JS utilizamos duas / no ínicio da linha. Comentários são textos ignorados pelo interpretador. 
 
 let readline = require('readline-sync'); // Importamos a biblioteca readline-sync e atribuimos a ele o seu nome simplificado: readline. Ela vem por padrão no Node. Dela, vamos usar o algoritimo question. Por isso há um ponto entre readline e question. É a question da readline.
@@ -50,8 +59,6 @@ let idade = 2026 - dataUsuario; // Fazemos a diferença entre 2026 e a dataUsuar
 console.log(idade); // Imprimimos o valor da variável idade.
 ```
 Teste isso no seu JS digitando qualquer ano.
-
----
 
 Observe que nas duas linguagens, o resultado será o mesmo, porque usamos a **mesma lógica**, só utilizamos palavras e termos diferentes. É como se fossemos explicar para uma pessoa bilíngue o mesmo algoritimo em inglês e português. Ela entenderia das duas formas, só muda o jeito como as coisas são captadas.
 
@@ -69,7 +76,8 @@ Essas situações vão ocorrer cotidianamente no curso, pois Python é uma lingu
 
 ---
 
-## RESUMO DOS COMANDOS
+## Resumo dos comandos
+
 | Python | JavaScript | Funcionamento |
 | :--- | :--- | :--- |
 | `#` | `//` | **Comentário:** Escreve um texto que é ignorado pelo computador, usado apenas para explicar o código. |
@@ -78,6 +86,3 @@ Essas situações vão ocorrer cotidianamente no curso, pois Python é uma lingu
 | `int()` | `parseInt()` | **Conversão de tipo:** Transforma os símbolos de um texto que contém números em um número inteiro para fazer cálculos. |
 | *(Atribuição direta)* | `let` | **Declaração de variável:** Avisa ao computador que estamos criando uma variável nova para guardar dados na memória. |
 | `print()` | `console.log()` | **Saída de dados:** Imprime e exibe textos, valores ou resultados na tela do terminal. |
-
----
-Daniel Reschke, 2 de outubro de 2026.

@@ -1,7 +1,10 @@
-# Algoritmos
-Um algoritmo é uma **sequência de instruções lógicas, finitas e bem definidas usada para resolver um problema ou realizar uma tarefa**. Ponto. Só isso. Ele é manual de como resolver um problema, e tu consegue usar ele para resolver esse problema quantas vezes tu precisar. Ele é **reproduzível**. E o que isso tem haver com programação? Tudo: nós, humanos, temos muitos problemas e gostamos de resolver eles com o mínimo de esforço possível. Computadores são muito burros e não sabem fazer absolutamente nada, mas eles amam obedecer e fazem isso direitinho. Assim, surge uma combinação perfeita: nós mandamos algortimos para resolver problemas e eles obedecem e resolvem esses problemas pra gente. 
+---
+title: Algoritmos
+---
 
-E aí entra uma coisa importante: **como nós instruímos alguém a fazer algo**? Pense, como instruir uma criança a fazer um bolo? Como fazer um algoritimo pra uma criança fazer um bolo? Podemos dizer algo simples para ela. Algo como:
+Um algoritmo é uma **sequência de instruções lógicas, finitas e bem definidas usada para resolver um problema ou realizar uma tarefa**. Ponto. Só isso. Ele é manual de como resolver um problema, e tu consegue usar ele para resolver esse problema quantas vezes tu precisar. Ele é **reproduzível**. E o que isso tem haver com programação? Tudo: nós, humanos, temos muitos problemas e gostamos de resolver eles com o mínimo de esforço possível. Computadores são muito burros e não sabem fazer absolutamente nada, mas eles amam obedecer e fazem isso direitinho. Assim, surge uma combinação perfeita: nós mandamos algoritmos para resolver problemas e eles obedecem e resolvem esses problemas pra gente. 
+
+E aí entra uma coisa importante: **como nós instruímos alguém a fazer algo**? Pense, como instruir uma criança a fazer um bolo? Como fazer um algoritmo pra uma criança fazer um bolo? Podemos dizer algo simples para ela. Algo como:
 
 1. _Pegue os ingredientes._
 2. _Pegue os instrumentos._
@@ -17,6 +20,3 @@ Acontece que nós falamos ambiguidades o tempo inteiro em português. Por isso, 
 **Que ingredientes? Que instrumentos? Onde está o forno? Em que forma? Ele vai despejar o bolo inteiro no forno? Vai sujar tudo!**
 
 A linguagem de programação é muito delicada. A forma que tem o bolo cru dentro dela é que vai no forno. Não o bolo cru mesmo. Lembra sempre que o computador vai obedecer tudo o que tu dizer.
-
----
-Daniel Reschke, 2 de outubro de 2026.

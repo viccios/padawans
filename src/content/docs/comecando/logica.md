@@ -1,4 +1,7 @@
-# Lógica
+---
+title: Lógica
+---
+
 No diciónario, **lógica** está definida como: 
 > [Lógica é o modo de raciocínio coerente, a ciência que estuda as leis do pensamento correto e a harmonia na proporção dos argumentos](https://www.dicio.com.br/logica/)
 
@@ -19,6 +22,3 @@ Tudo certo, né? Mas aquele bolo ele torra e fica preto e pega fogo. Ele já est
 3. **_Então coloco ele no forno._**
 
 A lógica não está apenas nas linhas de código avançadas; ela surge sempre que precisamos resolver um problema de forma estruturada. Todas as linguagens de programação usam isso, inclusive Python e JavaScript.
-
----
-Daniel Reschke, 2 de outubro de 2026.
